@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/bg.jpg);
+}
+
+#main-container{
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+#search{
+    width: 80vw;
+    padding: 10px;
+    font-size: 24px;
+}
+h3{
+    color: white;
+    font-size: 3rem;
+}
+
+.games-list, .webs-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-box{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.6);
+    font-size: 1.5rem;
+    color: black;
+    background-color:white;
+    width: 90%;
+}
+
+.list-box a{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.name{
+    border: 2px ridge gray;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    color: #CCC;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.description{
+    font-size: 1.1rem;
+}
+
+.description , .list-box a, .name{
+    margin: 10px;}
