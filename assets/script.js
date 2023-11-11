@@ -42,6 +42,16 @@ const myWork = {
       description:
         "This game needed two players, that each one roll the dice until he holds his score, his score is counted as total of rolled dice numbers, but when he hold his score, he loses his turn. the game will finish until one of them get the target that they manage at the first",
     },
+    {
+      id: 5,
+      name: "MineCraft Game",
+      src: "./images/mineCraft.jpg",
+      alt: "Dice Game Photo",
+      netlifyLink: "https://mine-craft-23.netlify.app",
+      githubLink: "https://github.com/mayoush89k/mineCraft",
+      description:
+        "This game is building and create your own town, by moving objects, by some tools. each tool must remove specific objects",
+    },
   ],
 
   myWebPages: [
