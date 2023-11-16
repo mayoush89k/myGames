@@ -115,6 +115,17 @@ const myWork = {
       description:
         "This a React website that brings all the details of each country in the world, from the wikipedia references. \n There are many pages, each page has another order list(\n1. list of the Countries' Names and Flags. \n2. list of Countries with list of each one's biggest cities. \n3. list of Countries with their capitals. \n4. list of Continents and Countries that belong to each one of them",
     },
+    {
+      id: 7,
+      name: "online-Marker",
+      scr: "./images/online-market",
+      alt: "online Market Photo",
+      netlifyLink:
+        "https://deploy-preview-1--online-market-appleseeds.netlify.app/",
+      github: "https://github.com/zaid-kh/Online-Market",
+      description:
+        "This is another group project, using fetch api(get , pul , delete and post). we create an api file by mock website, that helps us to create an online store, with options of user or admin client. user can add product to cart, but admin can edit/delete product. there is a history of bought products for each user.",
+    },
   ],
 };
 
@@ -123,13 +134,12 @@ const websListContainer = document.querySelector("#webs-list");
 let rowSection = document.createElement("section");
 
 const gamesList = document.createElement("section");
-gamesList.className = "games-list"
+gamesList.className = "games-list";
 const websList = document.createElement("section");
-websList.className = "webs-list"
+websList.className = "webs-list";
 
 displayGames(myWork.myGamesList);
 displayWebs(myWork.myWebPages);
-
 
 function displayGames(games) {
   gamesList.innerText = "";
@@ -168,7 +178,7 @@ function displayGames(games) {
 
     rowSection.appendChild(gameBox);
     gamesList.appendChild(rowSection);
-    gamesListContainer.appendChild(gamesList)
+    gamesListContainer.appendChild(gamesList);
   });
 }
 
@@ -209,8 +219,8 @@ function displayWebs(webs) {
 
     rowSection.appendChild(webBox);
     websList.appendChild(rowSection);
-    websListContainer.appendChild(websList)
-});
+    websListContainer.appendChild(websList);
+  });
 }
 
 const searchBtn = document.querySelector("#search");
