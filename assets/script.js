@@ -117,14 +117,14 @@ const myWork = {
     },
     {
       id: 7,
-      name: "online-Marker",
+      name: "online-Market",
       scr: "./images/online-market",
       alt: "online Market Photo",
       netlifyLink:
         "https://deploy-preview-1--online-market-appleseeds.netlify.app/",
       github: "https://github.com/zaid-kh/Online-Market",
       description:
-        "This is another group project, using fetch api(get , pul , delete and post). we create an api file by mock website, that helps us to create an online store, with options of user or admin client. user can add product to cart, but admin can edit/delete product. there is a history of bought products for each user.",
+        "This is another group project, using fetch api(get , pul , delete and post). \n we create an api file by mock website, that helps us to create an online store, with options of user or admin client. \nuser can add product to cart, but admin can edit/delete product. \nthere is a history of bought products for each user.",
     },
   ],
 };

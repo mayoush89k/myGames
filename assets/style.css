@@ -1,11 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(./images/bg.jpg);
+}
+#img{
+    top: 0;
+    position: fixed;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main-container{
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 80%;
 }
 
@@ -34,10 +42,11 @@ h3{
     color: black;
     background-color:white;
     width: 90%;
+    min-width: 15vw;
 }
 
 .list-box a{
-    color: blue;
+    color: #00A3E4;
     font-size: 1.2rem;
 }
 
@@ -45,8 +54,8 @@ h3{
     border: 2px ridge gray;
     padding: 10px;
     text-align: center;
-    background-color: blue;
-    color: #CCC;
+    background-color: #00A8E9;
+    color: black;
     border-radius: 10px;
     font-weight: bold;
 }
