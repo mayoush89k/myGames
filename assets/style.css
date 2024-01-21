@@ -14,7 +14,8 @@ body{
 
 #main-container{
     margin: 20px auto;
-    max-width: 80%;
+    max-width: 80vw;
+    
 }
 
 #search{
@@ -30,6 +31,8 @@ h3{
 .games-list, .webs-list{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-box{
@@ -41,7 +44,6 @@ h3{
     font-size: 1.5rem;
     color: black;
     background-color:white;
-    width: 90%;
     min-width: 15vw;
 }
 

@@ -141,7 +141,7 @@ const myWork = {
       alt: "Expense Tracker Photo",
       netlifyLink: "https://expense-tracker-may.netlify.app/",
       github: "https://github.com/mayoush89k/expenseTracker",
-      description: "This Project is my Final Project of Bootcamp, and it is built with full-stack. \nA web tool designed to make managing your finances easy and efficient. In a world where online shopping has become a predominant habit, especially after the impact of COVID-19, we recognize the need for a resource that helps individuals effortlessly track their expenses and gain insights into their financial positions. Our platform is dedicated to everyone, providing a user-friendly experience to monitor spending patterns and align them with personal income. Receive weekly email summaries to keep a close eye on your financial transactions and benefit from our monthly bar charts that offer a visual representation of your budgeting journey. Empower yourself with financial awareness and take control of your expenses with our intuitive Expense Tracker.",
+      description: "This Project is my Final Project of Bootcamp, and it is built with full-stack. \n After covid-19 all of us heading our shopping into online. but after words. It becomes one of our main habit in life. So I have created a project to track my expense, to track what is going on. Am I going well depending to my income?? Or I just have to stop for a while…",
     },
   ],
 };
