@@ -118,13 +118,30 @@ const myWork = {
     {
       id: 7,
       name: "online-Market",
-      scr: "./images/online-market",
+      src: "./images/online-market",
       alt: "online Market Photo",
-      netlifyLink:
-        "https://deploy-preview-1--online-market-appleseeds.netlify.app/",
+      netlifyLink:"https://deploy-preview-1--online-market-appleseeds.netlify.app/",
       github: "https://github.com/zaid-kh/Online-Market",
       description:
         "This is another group project, using fetch api(get , pul , delete and post). \n we create an api file by mock website, that helps us to create an online store, with options of user or admin client. \nuser can add product to cart, but admin can edit/delete product. \nthere is a history of bought products for each user.",
+    },
+    {
+      id: 8,
+      name: "Nature Finder",
+      src: "",
+      alt: "Nature Finder Photo",
+      netlifyLink: "https://nature-finder.netlify.app/",
+      github: "https://github.com/mayoush89k/nature-finder",
+      description: "This Project is my Middle Project of Bootcamp, and was about finding any nature place near me. My country has many places, that are not yet discovered. But what I want is to let people discover how beautiful country we have. and to share it with friends and other users.",
+    },
+    {
+      id: 9,
+      name: "Expense Tracker",
+      src: "",
+      alt: "Expense Tracker Photo",
+      netlifyLink: "https://expense-tracker-may.netlify.app/",
+      github: "https://github.com/mayoush89k/expenseTracker",
+      description: "This Project is my Final Project of Bootcamp, and it is built with full-stack. \nA web tool designed to make managing your finances easy and efficient. In a world where online shopping has become a predominant habit, especially after the impact of COVID-19, we recognize the need for a resource that helps individuals effortlessly track their expenses and gain insights into their financial positions. Our platform is dedicated to everyone, providing a user-friendly experience to monitor spending patterns and align them with personal income. Receive weekly email summaries to keep a close eye on your financial transactions and benefit from our monthly bar charts that offer a visual representation of your budgeting journey. Empower yourself with financial awareness and take control of your expenses with our intuitive Expense Tracker.",
     },
   ],
 };
